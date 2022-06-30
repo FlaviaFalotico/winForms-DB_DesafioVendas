@@ -8,7 +8,7 @@
 Sistema de Vendas desenvolvido como parte das atividades realizadas durante a Academia .NET da AtoS, em parceria com a Universidade Franciscana (UFN). 
 
 ## :books: Funcionalidades
-* <b>Funcionalidade </b>: Resumidamente, destina-se cadastro de clientes e produtos, bem como a realização de vendas à partir destes.  
+* <b>Funcionalidade </b>: Resumidamente, destina-se ao cadastro de clientes e produtos, bem como a realização de vendas à partir destes.  
 
 ## :wrench: Tecnologias utilizadas
 * Windows Form
