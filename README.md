@@ -2,7 +2,7 @@
 
 ## 🖼️ Imagem da Home do Sistema 
 
-
+<img align="leaft" alt="Gif" height="400" width="1090" style="border-radius:50px;" src="https://c.tenor.com/4ryx66tWEhcAAAAd/pixel-study.gif">
 
 ## :memo: Descrição
 Sistema de Vendas desenvolvido como parte das atividades realizadas durante a Academia .NET da AtoS, em parceria com a Universidade Franciscana (UFN). 
