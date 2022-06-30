@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinForms_BancoDeDados
+namespace DesafioWinForms_DB
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace WinForms_BancoDeDados
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmPrincipal());
         }
     }
 }

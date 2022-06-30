@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinForms_BancoDeDados.Properties {
+namespace DesafioWinForms_DB.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,11 @@ namespace WinForms_BancoDeDados.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=FELIPEBONARDI\\SQLEXPRESS;Initial Catalog=cadastroDePessoas_DB;Integra" +
-            "ted Security=True")]
-        public string cadastroDePessoas_DBConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=FELIPEBONARDI\\SQLEXPRESS;Initial Catalog=DesafioVenda_db;Integrated S" +
+            "ecurity=True")]
+        public string DesafioVenda_dbConnectionString {
             get {
-                return ((string)(this["cadastroDePessoas_DBConnectionString"]));
+                return ((string)(this["DesafioVenda_dbConnectionString"]));
             }
         }
     }

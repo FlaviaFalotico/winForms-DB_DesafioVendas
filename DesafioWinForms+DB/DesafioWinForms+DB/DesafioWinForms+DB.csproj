@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9577598D-BCAF-403C-B201-6D02DD448FC0}</ProjectGuid>
+    <ProjectGuid>{3AE7D2CC-A73E-40A5-83FE-E9F698A738B9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinForms_BancoDeDados</RootNamespace>
-    <AssemblyName>WinForms+BancoDeDados</AssemblyName>
+    <RootNamespace>DesafioWinForms_DB</RootNamespace>
+    <AssemblyName>DesafioWinForms+DB</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,22 +47,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banco.cs" />
-    <Compile Include="cadastroDePessoas_DBDataSet.Designer.cs">
+    <Compile Include="Cliente.cs" />
+    <Compile Include="DesafioVenda_dbDataSet11.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>cadastroDePessoas_DBDataSet.xsd</DependentUpon>
+      <DependentUpon>DesafioVenda_dbDataSet11.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pessoa.cs" />
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduto.Designer.cs">
+      <DependentUpon>FrmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemVenda.cs" />
+    <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVenda.Designer.cs">
+      <DependentUpon>FrmVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda.cs" />
+    <EmbeddedResource Include="FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduto.resx">
+      <DependentUpon>FrmProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,16 +100,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="cadastroDePessoas_DBDataSet.xsc">
-      <DependentUpon>cadastroDePessoas_DBDataSet.xsd</DependentUpon>
+    <EmbeddedResource Include="FrmVenda.resx">
+      <DependentUpon>FrmVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DesafioVenda_dbDataSet11.xsc">
+      <DependentUpon>DesafioVenda_dbDataSet11.xsd</DependentUpon>
     </None>
-    <None Include="cadastroDePessoas_DBDataSet.xsd">
+    <None Include="DesafioVenda_dbDataSet11.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>cadastroDePessoas_DBDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>DesafioVenda_dbDataSet11.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="cadastroDePessoas_DBDataSet.xss">
-      <DependentUpon>cadastroDePessoas_DBDataSet.xsd</DependentUpon>
+    <None Include="DesafioVenda_dbDataSet11.xss">
+      <DependentUpon>DesafioVenda_dbDataSet11.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -11,7 +11,7 @@ namespace SimplesWindowsFormsBanco
 {
     public class Banco
     {
-        string stringConexao = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=cadastroDePessoas_DB;" +
+        string stringConexao = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=DesafioVenda_db;" +
             "TrustServerCertificate=True;Integrated Security=True";
 
         private SqlConnection cn;
@@ -31,7 +31,7 @@ namespace SimplesWindowsFormsBanco
 
                 return cn;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 //faz algo se deu erro
                 return null;
@@ -44,7 +44,7 @@ namespace SimplesWindowsFormsBanco
             {
                 cn.Close();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return;
             }
@@ -66,7 +66,7 @@ namespace SimplesWindowsFormsBanco
 
                 return dt;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }
