@@ -12,8 +12,8 @@ Sistema de Vendas desenvolvido como parte das atividades realizadas durante a Ac
 
 ## :wrench: Tecnologias utilizadas
 * Windows Form
-* C#/.NET;
-*SQL Server
+* C#/.NET
+* SQL Server
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando no VS para iniciar o projeto:
